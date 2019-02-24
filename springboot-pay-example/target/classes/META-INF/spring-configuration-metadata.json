@@ -1,0 +1,157 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "name": "pay.alipay",
+      "type": "com.example.pay.configuration.AlipayProperties"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.MyWXPayConfig",
+      "name": "pay.wxpay",
+      "type": "com.example.pay.configuration.MyWXPayConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "name": "pay.alipay.alipay-public-key",
+      "description": "支付宝RSA公钥，用于验签支付宝应答",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "name": "pay.alipay.app-private-key",
+      "description": "RSA私钥，用于对商户请求报文加签",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "name": "pay.alipay.appid",
+      "description": "商户应用id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "defaultValue": 3000,
+      "name": "pay.alipay.cancel-duration",
+      "description": "撤销间隔（毫秒）",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "defaultValue": "UTF-8",
+      "name": "pay.alipay.charset",
+      "description": "编码",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "defaultValue": "json",
+      "name": "pay.alipay.formate",
+      "description": "格式",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "name": "pay.alipay.gateway-url",
+      "description": "支付宝gatewayUrl",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "defaultValue": 3,
+      "name": "pay.alipay.max-cancel-retry",
+      "description": "最大撤销次数",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "defaultValue": 5,
+      "name": "pay.alipay.max-query-retry",
+      "description": "最大查询次数",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "name": "pay.alipay.notify-url",
+      "description": "异步地址",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "defaultValue": 5000,
+      "name": "pay.alipay.query-duration",
+      "description": "查询间隔（毫秒）",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "name": "pay.alipay.return-url",
+      "description": "同步地址",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.AlipayProperties",
+      "defaultValue": "RSA2",
+      "name": "pay.alipay.sign-type",
+      "description": "签名类型",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.MyWXPayConfig",
+      "name": "pay.wxpay.app-i-d",
+      "description": "公众账号ID",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.MyWXPayConfig",
+      "name": "pay.wxpay.cert-path",
+      "description": "API证书绝对路径",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.MyWXPayConfig",
+      "defaultValue": 8000,
+      "name": "pay.wxpay.http-connect-timeout-ms",
+      "description": "HTTP(S) 连接超时时间，单位毫秒",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.MyWXPayConfig",
+      "defaultValue": 10000,
+      "name": "pay.wxpay.http-read-timeout-ms",
+      "description": "HTTP(S) 读数据超时时间，单位毫秒",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.MyWXPayConfig",
+      "name": "pay.wxpay.key",
+      "description": "API 密钥",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.MyWXPayConfig",
+      "name": "pay.wxpay.mch-i-d",
+      "description": "商户号",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.MyWXPayConfig",
+      "name": "pay.wxpay.notify-url",
+      "description": "退款异步通知地址",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.MyWXPayConfig",
+      "name": "pay.wxpay.sandbox-key",
+      "description": "API 沙箱环境密钥",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.pay.configuration.MyWXPayConfig",
+      "name": "pay.wxpay.use-sandbox",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+mvn install:install-file -DgroupId=com.alipay -DartifactId=alipay-trade-sdk-source -Dversion=2016 -Dpackaging=jar -Dfile=D:\alipay-trade-sdk-source-2016.jar
